@@ -26,6 +26,11 @@ public class Media {
 
         System.out.println("A sua média é de: "+ media);
 
+        if (media >= 7)
+            System.out.println("Aprovado!");
+        else
+            System.out.println("Não Aprovado!");
+
 
 
 
