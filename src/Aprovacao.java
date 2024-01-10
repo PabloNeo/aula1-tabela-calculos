@@ -21,10 +21,14 @@ public class Aprovacao {
 
         System.out.println("A sua média é de: "+ media);
 
-        if (media >= 7.0){
-             System.out.println("Aprovado");
+        if (media >= 7.0) {
+            System.out.println("Aprovado!");
+        }
+        else if ((media <= 7.0) && ( media >= 6.0))
+        {
+             System.out.println("Você está em recuperação!");
         } else {
-             System.out.println("Não Aprovado");
+             System.out.println("Não Aprovado!");
 
         }
 
